@@ -18,24 +18,24 @@ The pipeline consists of:
 ---
 
 ## 📂 Project Structure
-ecommerce-review-summarizer/
-│
-├── Add_and_Norm.py              # Residual connection + layer normalization
-├── Cross_Attention.py           # Encoder–decoder attention
-├── CrossMultiHead.py            # Multi-head cross-attention
-├── Decoder.py                   # Transformer decoder block
-├── Encoder.py                   # Transformer encoder block
-├── FeedForward.py               # Position-wise feedforward network
-├── inputembeeding.py            # Token + positional embeddings
-├── LinearAndSoftmax.py          # Output projection and softmax
-├── Masked_Multi_Head.py         # Masked multi-head attention
-├── Masked_Single_Attention.py   # Masked single-head attention
-├── Multi_Head_Attention.py      # Multi-head self-attention
-├── Positional_encoding.py       # Positional encoding
-├── Single_Head_Attention.py     # Single-head attention
-├── Transformer.py               # Full Transformer model
-├── Vocublary_matrix.py          # Vocabulary and shared embedding matrix
-└── README.md
+- ecommerce-review-summarizer/
+- │
+- ├── Add_and_Norm.py             
+- ├── Cross_Attention.py           
+- ├── CrossMultiHead.py           
+- ├── Decoder.py                   
+- ├── Encoder.py                  
+- ├── FeedForward.py               
+- ├── inputembeeding.py            
+- ├── LinearAndSoftmax.py          
+- ├── Masked_Multi_Head.py         
+- ├── Masked_Single_Attention.py   
+- ├── Multi_Head_Attention.py      
+- ├── Positional_encoding.py      
+- ├── Single_Head_Attention.py     
+- ├── Transformer.py               
+- ├── Vocublary_matrix.py         
+- └── README.md
 
 ---
 
@@ -55,9 +55,7 @@ The model follows a **standard Transformer encoder–decoder design**.
 - Feedforward network  
 - Residual connections and layer normalization  
 
-### Output
-- Linear projection  
-- Softmax over vocabulary  
+ 
 
 ---
 
@@ -98,8 +96,8 @@ The model follows a **standard Transformer encoder–decoder design**.
 
 ---
 ## References:
-  - title: "Attention Is All You Need"
-  - title: "The Illustrated Transformer - "Alammar J"
+  - "Attention Is All You Need"
+  - "The Illustrated Transformer - "Alammar J"
 
 
 
